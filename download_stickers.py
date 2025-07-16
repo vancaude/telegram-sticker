@@ -4,8 +4,8 @@ from telethon.tl.types import InputStickerSetShortName
 import os
 
 # API Zugangsdaten von https://my.telegram.org/apps
-api_id = 22175178        # API ID
-api_hash = '0ae0134f0a318c620f4eab9c09f2a084'  # API Hash
+api_id = 70839426        # API ID
+api_hash = 'e48f92a10b7dd3c5af6129b8cc4f09ea'  # API Hash
 
 sticker_pack_name = input("Wie heißt der Stickerpack-Name (z. B. Animated_Round_Pretty_Cat)?\n> ").strip()
 
@@ -23,4 +23,4 @@ with TelegramClient('session_name', api_id, api_hash) as client:
         ext = '.tgs' if doc.mime_type == 'application/x-tgsticker' else '.webp'
         filename = f"{sticker_pack_name}/{i+1}{ext}"
         client.download_media(doc, filename)
-        print(f"✅ {filename}")
+        print(f" {filename}")
