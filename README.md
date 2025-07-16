@@ -11,6 +11,7 @@ Installiere Telethon mit:
 
 ```bash
 pip install telethon
+```
 
 Gehe zu my.telegram.org, melde dich an und erstelle eine neue Anwendung.
 
@@ -20,6 +21,7 @@ Führe das Skript aus:
 
 ```bash
 python downloader.py
+```
 
 Beispiel:
 
