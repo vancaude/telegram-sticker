@@ -7,17 +7,16 @@ Ein einfaches Python-Skript zum Herunterladen kompletter Telegram-Stickerpacks (
 - Python 3.7+
 - [Telethon](https://github.com/LonamiWebs/Telethon)
 
-Installiere Telethon mit:
+Telethon installieren mit:
 
 ```bash
 pip install telethon
 ```
 
-Gehe zu my.telegram.org, melde dich an und erstelle eine neue Anwendung.
+Auf my.telegram.org den API Key erstelllen.
 
-Notiere dir die API ID und den API Hash.
+API ID und  API Hash wird im script benötigt.
 
-Führe das Skript aus:
 
 ```bash
 python downloader.py
