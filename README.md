@@ -1,9 +1,3 @@
-# telegram-sticker-downloader
-
-Ein einfaches Python-Skript zum Herunterladen kompletter Telegram-Stickerpacks (inkl. animierter `.tgs` oder statischer `.webp` Sticker).
-
-Ich habe es genutzt, um Sticker aus Telegram zu bekommen und in meine lokale Matrix Instanz zu implementieren.
-
 ## Voraussetzungen:
 
 - Python 3.7+
