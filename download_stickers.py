@@ -4,8 +4,8 @@ from telethon.tl.types import InputStickerSetShortName
 import os
 
 # API Zugangsdaten von https://my.telegram.org/apps
-api_id = 70839426        # API ID
-api_hash = 'e48f92a10b7dd3c5af6129b8cc4f09ea'  # API Hash
+api_id = 12345678        # API ID
+api_hash = 'APIHASHEXAMPLE'  # API Hash
 
 sticker_pack_name = input("Wie heißt der Stickerpack-Name (z. B. Animated_Round_Pretty_Cat)?\n> ").strip()
 
